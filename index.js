@@ -67,13 +67,13 @@ var Button = function Button(props) {
 };
 
 Button.propTypes = {
-    block:    _PropTypes2.bool,
-    square:   _PropTypes2.bool,
-    size:     _PropTypes2.string,
-    type:     _PropTypes2.string,
-    href:     _PropTypes2.string,
-    disabled: _PropTypes2.bool,
-    onClick:  _PropTypes2.func
+    block:    _PropTypes2.default.bool,
+    square:   _PropTypes2.default.bool,
+    size:     _PropTypes2.default.string,
+    type:     _PropTypes2.default.string,
+    href:     _PropTypes2.default.string,
+    disabled: _PropTypes2.default.bool,
+    onClick:  _PropTypes2.default.func
 };
 
 Button.defaultProps = {
