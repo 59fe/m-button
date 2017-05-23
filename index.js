@@ -11,6 +11,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _PropTypes = require('prop-types');
+
+var _PropTypes2 = _interopRequireDefault(_PropTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -63,13 +67,13 @@ var Button = function Button(props) {
 };
 
 Button.propTypes = {
-    block: _react.PropTypes.bool,
-    square: _react.PropTypes.bool,
-    size: _react.PropTypes.string,
-    type: _react.PropTypes.string,
-    href: _react.PropTypes.string,
-    disabled: _react.PropTypes.bool,
-    onClick: _react.PropTypes.func
+    block:    _PropTypes2.bool,
+    square:   _PropTypes2.bool,
+    size:     _PropTypes2.string,
+    type:     _PropTypes2.string,
+    href:     _PropTypes2.string,
+    disabled: _PropTypes2.bool,
+    onClick:  _PropTypes2.func
 };
 
 Button.defaultProps = {
